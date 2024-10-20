@@ -118,5 +118,8 @@ int main() {
     game.currentTurn = (game.currentTurn == 'x') ? 'o' : 'x';
   }
 
+  clearCLI();
+  game.printBoard();
+
   return 0;
 }
